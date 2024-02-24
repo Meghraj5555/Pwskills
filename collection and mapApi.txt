@@ -25,7 +25,7 @@ Ans:
 4. What is the difference between Iterator and Enumeration?
 Ans:
     iterator                             Enumeration
-    iterator cantraverse legacy and      Enumeration can traverse only
+    iterator can traverse legacy and      Enumeration can traverse only
     non-legacy elements                   legacy elements
     iterator is fail-fast                Enumeration is not fail-fast
     iterator is smaller than             enumeration is faster than iterator
@@ -33,47 +33,47 @@ Ans:
 
 
 5. What is the difference between List and Set?
-Ans: The List and Set @oth extend the collection interfaceC However, there are some differences @etween the
-two which are listed belowB
- The List can contain duplicate elements whereas Set includes unique itemsB
+Ans: The List and Set both extend the collection interfaces However, there are some differences between the
+two which are listed below
+ The List can contain duplicate elements whereas Set includes unique items
  The List is an ordered collection which maintains the insertion order whereas Set is an unordered collection
 which does not preserve the insertion order.
 The List interface contains a single legacy class which is vector class whereas the set interface does not
-have any legacy classB
+have any legacy class
  the interface can allow a number of null values whereas Set interface
 6. What is the difference between HashSet and TreeSet?
-Ans: Both HashSet and TreeSet are implementations of the Set interface in Java, @ut they have some
+Ans: Both HashSet and TreeSet are implementations of the Set interface in Java, but they have some
 differences in terms of their properties and usagse
 . Ordering: HashSet is an unordered collection of elements, while TreeSet is a sorted set of elements based on
 their natural order or a custom comparatorB
 . Duplication: HashSet does not allow duplicate elements, while TreeSet does not allow duplicates as wellB
 . implementation: HashSet is implemented using a hash table, while TreeSet is implemented using a self-
-balancing binary search tree (Red-Black tree)B
-. Perforkance: HashSet has constant-time complexity O(1) for adding, removing, and testing te existence of
+balancing binary search tree (Red-Black tree)
+. Performance: HashSet has constant-time complexity O(1) for adding, removing, and testing te existence of
 an element, while TreeSet has a logarithmic-time complexity O(log n) for these operations due to the self-
-balancing propertyB
-. Mekor& usage: HashSet uses less memory than TreeSet because it only stores the elements, while Treeset
-stores additional information for maintaining the orderB
+balancing property.
+. Memory usage: HashSet uses less memory than TreeSet because it only stores the elements, while Treeset
+stores additional information for maintaining the order.
 . Iteration: HashSet provides no guarantees regarding the order of iteration, while TreeSet guarantees the
-elements are iterated in sorted orderB
+elements are iterated in sorted order
 . usage: HashSet is suitable when ordering is not important, and fast access and membership tests are
-neededC TreeSet is suitable when elements need to be sorted or accessed in a specific orderB
+needed TreeSet is suitable when elements need to be sorted or accessed in a specific order
 7.What is the difference between Arra& and Arra&List?
 Ans: Both arrays and ArrayLists are used to store collections of elements in Java, but they have some
 differences in terms of their properties and usage
-. T&pe: Arrays can store elements of primitive data types as well as objects, while ArrayList can only store
+. Type: Arrays can store elements of primitive data types as well as objects, while ArrayList can only store
 0bjects.
 . Size: The size of an array is fixed once it is created, while the size of an ArrayList can be dynamically
 increased or decreased by adding or removing elements.
-. Mutability: Arrays are muta@le, meaning that you can modify the elements in an array after it has been
-created. ArrayList is also mutable, but the only way to modify it is @y adding, removing or modifying
+. Mutability: Arrays are mutable, meaning that you can modify the elements in an array after it has been
+created. ArrayList is also mutable, but the only way to modify it is by adding, removing or modifying
 elements.
-. Perforkance: Arrays have better performance than ArrayLists for certain operations, such as accessing
+. Performance: Arrays have better performance than ArrayLists for certain operations, such as accessing
 elements by index, beacaus  they are implemented as a continuous block of memory.ArrayLists, on the
 other hand, use dynamic memory allocation and are implemented as a dynamic array, which may result in
 more memory overhead and slower performance for certain operations.
 . Methods: Arrays have a limited set of methods compared to ArrayLists, which provides more methods for
-manipulating the collection, such as adding, removing, and sorting elementsB
+manipulating the collection, such as adding, removing, and sorting elements.
 . Initialization: Arrays can be initialized with values at the time of creation, while ArrayList requires the use of
 methods to add elements to the collection.
 . Compatibility: Arrays are compatible with traditional for-loops and can be easily passed to other methods,
@@ -83,13 +83,13 @@ while ArrayList requires the use of a special for-each loop and may require more
 8.What is a Map in Java?
 Ans: A Map is a collection in Java that stores data as ke9-value pairs, where each ke9 is unique8
 9. What age the commonly used implementations of Map in Java?
-Ans: Whe commonl9 used implementations of Map in Java are HashMap, WreeMap, LinkedHashMap, and
+Ans: the commonl9 used implementations of Map in Java are HashMap, WreeMap, LinkedHashMap, and
 ConcurrentHashMap.
-10. What is the diffegence between HashMap and TgeeMap?
+10. What is the difference between HashMap and TgeeMap?
 Ans: HashMap is an unordered collection that uses hashing to store the ke9-value pairs, while WreeMap is a
-sorted collection that stores the ke9-value pairs in a sorted order based on the natural order of the keys or a
-custom Comparator8
+sorted collection that stores the key-value pairs in a sorted order based on the natural order of the keys or a
+custom Comparator
 11. How do you check if a key exists in a Map in Java?
-Ans: we can check if a key exists in a Map in Java using the containsKey() method or the get() method6 Whe
-containsKey() method returns a boolean value indicating whether the Map contains the specified ke9, while
-the get() method returns the value associated with the value associated with the specified ke9, or null if the ke9 is not present in the Map.
+Ans: we can check if a key exists in a Map in Java using the containsKey() method or the get() methods the
+containsKey() method returns a boolean value indicating whether the Map contains the specified key, while
+the get() method returns the value associated with the value associated with the specified key, or null if the key is not present in the Map.
